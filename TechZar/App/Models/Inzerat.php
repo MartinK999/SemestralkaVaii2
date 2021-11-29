@@ -14,8 +14,7 @@ class Inzerat extends \App\Core\Model
         public int $phone_number = 0,
         public int $price = 0,
         public ?string $image = "",
-        public ?string $login_fk = "",
-        public int $pre = 0
+        public ?string $login_fk = ""
     )
     {
 
